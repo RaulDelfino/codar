@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: auto;
+    max-width: 80%;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    display:inline-block;
+    width: 100%;
+}
+strong {
+    color:black
+}
+.Logo {
+    font-style: italic;
+    font-weight: 800;
+    float: left;
+    color:#d6000d;
+}
+.menu {
+    margin-top: 10px;
+    float: right;
+}
+.item {
+    margin-right: 15px;
+    display: inline-block;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+#login {
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px 50px;
+    color: white;
+    background-color: #d6000d;
+}
+main {
+    display:block;
+}
+ section {
+    margin-bottom: 200px;
+    padding: 80px 0 0 100px;
+ }
+.video {
+    float: left;
+    width: 350px;
+}
+.chamado {
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.chamado h2 {
+    font-size: 45px;
+    color: #d6000d;
+    margin-bottom: 30px;
+}
+#botao {
+    font-size: 15px;
+    color: white;
+    background-color: #d6000d;
+    padding: 5px 20px;
+    border-radius: 8px;
+}
+#serviços {
+    position: relative;
+    display: inline;
+    margin-top: 250px;
+    display: block;
+}
+.trampos {
+    margin: 0;
+	padding: 5px 0 5px 40px;
+	list-style: none;
+	background-image: url("/imagens/streamline-icon-interface-validation-check-circle@250x250.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 20px;
+}
+#codar {
+    float: right;
+    width: 400px;
+    position:absolute;
+    left: 50%;
+    bottom: 50px;
+}
+.equipe {
+    margin-top: 70px;
+    font-weight: bold;
+}
+input {
+    margin-top: 5px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.323);
+    padding: 8px;
+    border-radius: 8px;
+}
+input[type="button"] {
+    padding: 8px 25px;
+    background-color: #d6000d;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.parceiros {
+    display: inline-block;
+    margin-bottom: 200px;
+
+}
+.pedro {
+    background-color: rgba(128, 128, 128, 0.323);
+    width: 40%;
+    font-size: 12px;
+    padding: 20px;
+    border-radius: 10px;
+    float: left;
+    height: 80px;
+
+}
+#perfil1 {
+    float: left;
+    width: 70px;
+    margin-right: 20px;
+}
+.maria {
+    background-color: rgba(128, 128, 128, 0.323);
+    width: 40%;
+    font-size: 13px;
+    padding: 20px;
+    border-radius: 10px;
+    float: right;
+    height: 80px;
+}
+#perfil2 {
+    width: 70px;
+    margin-right: 20px;
+    float: left;    
+
+}
+footer {
+    padding: 50px;
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+.elementos {
+    display: inline-block;
+    width: 20%;
+}
+footer h2 {
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 400;
+}
+.elemento1 {
+    position: relative;
+    bottom:25px;
+}
+.elemento2 {
+    position: relative;
+    bottom:15px;
+    
+}
+.elemento4 {
+    position: absolute;
+}
+.elemento4 img{
+    margin-top: 15px;
+    margin-left: 10px;
+}
